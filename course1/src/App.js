@@ -1,9 +1,11 @@
-import "./App.css";
+import MyFieldForm from "./pages/myFieldForm";
+// import BaseForm from "./pages/baseForm";
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <h1>空白页</h1>
+      <MyFieldForm />
+      {/* <BaseForm /> */}
     </div>
   );
 }
